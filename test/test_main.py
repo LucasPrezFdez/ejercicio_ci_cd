@@ -13,3 +13,7 @@ def test_to_upper():
 
 def test_to_lower():
     assert to_lower("Lucas") == "lucas"
+
+
+def hola():
+    return print("mongolo")
