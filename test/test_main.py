@@ -1,4 +1,4 @@
-from src.main import elevar, to_upper
+from src.main import elevar, to_lower, to_upper
 
 
 def test_elevar():
@@ -9,3 +9,7 @@ def test_elevar():
 
 def test_to_upper():
     assert to_upper("Lucas") == "LUCAS"
+
+
+def test_to_lower():
+    assert to_lower("Lucas") == "lucas"
